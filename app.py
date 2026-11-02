@@ -37,11 +37,11 @@ st.info(
 # --------------------------------------------------
 
 model_files = {
-    "Logistic Regression": "model/logistic_regression.pkl",
-    "Decision Tree": "model/decision_tree.pkl",
-    "K-Nearest Neighbors": "model/knn.pkl",
-    "Naive Bayes": "model/naive_bayes.pkl",
-    "Support Vector Machine": "model/svm.pkl"
+    "Logistic Regression": "logistic_regression.pkl",
+    "Decision Tree": "decision_tree.pkl",
+    "K-Nearest Neighbors": "knn.pkl",
+    "Naive Bayes": "naive_bayes.pkl",
+    "Support Vector Machine": "svm.pkl"
 }
 
 scaled_models = {
@@ -54,7 +54,7 @@ scaled_models = {
 # Load preprocessing artifact
 # --------------------------------------------------
 
-scaler = joblib.load("model/scaler.pkl")
+scaler = joblib.load("scaler.pkl")
 
 # --------------------------------------------------
 # User controls
